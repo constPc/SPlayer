@@ -1,10 +1,10 @@
 {
-  "name": "splayer",
+  "name": "mplayer",
   "version": "2.0.4",
   "description": "A minimalist music player",
   "main": "./out/main/index.js",
-  "author": "imsyy",
-  "home": "https://imsyy.top",
+  "author": "constPc",
+  "home": "https://music.runcode.icu",
   "github": "https://github.com/imsyy/SPlayer",
   "repository": "github:imsyy/SPlayer",
   "license": "AGPL-3.0",

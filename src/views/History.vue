@@ -1,4 +1,5 @@
 <!-- 最近播放 -->
+
 <template>
   <div class="history">
     <n-h1 class="title">
@@ -17,7 +18,7 @@
             清空列表
           </n-button>
         </n-flex>
-        <SongList :data="historyPlaylist" :showCover="false" />
+        <SongList :data="historyPlaylist" :showCover="true" />
         <n-divider class="tip" dashed>
           <n-text :depth="3"> 最多展示 500 条播放历史 </n-text>
         </n-divider>
@@ -57,6 +58,7 @@ const cleanHistory = () => {
     margin: 20px 0;
     font-size: 36px;
     font-weight: bold;
+
     .num {
       margin-left: 12px;
       margin-bottom: 6px;
@@ -64,14 +66,17 @@ const cleanHistory = () => {
       font-weight: normal;
     }
   }
+
   .list {
     .menu {
       margin: 12px 0 20px 0;
     }
+
     .tip {
       font-size: 12px;
     }
   }
+
   .empty {
     margin-top: 40px;
   }

@@ -49,7 +49,7 @@ window.$cleanAll = (tip = true) => {
 
 // 版权声明
 const logoText = import.meta.env.RENDERER_VITE_SITE_TITLE;
-const copyrightNotice = `\n\n版本: ${packageJson.version}\n作者: ${packageJson.author}\n作者主页: ${packageJson.home}\nGitHub: ${packageJson.github}`;
+const copyrightNotice = `\n\n版本: ${packageJson.version}\n作者: ${packageJson.author}\n主页: ${packageJson.home}\n`;
 console.info(
   `%c${logoText} %c ${copyrightNotice}`,
   "color:#f55e55;font-size:26px;font-weight:bold;",
